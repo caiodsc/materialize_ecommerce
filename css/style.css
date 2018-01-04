@@ -1,0 +1,23 @@
+.slide-out-logo{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.navbar-logo{
+    height: 56px;
+}
+
+#destaque{
+    width: 100%;
+    height: calc(100% - 64px);
+}
+
+#destaque figure {
+    width: 100%;
+    margin: 0px;
+}
+
+#destaque figure img {
+    width: 100%;
+}

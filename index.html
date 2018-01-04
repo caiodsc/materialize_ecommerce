@@ -14,22 +14,35 @@
 </head>
 <body>
   <header>
-    <div>
-      <nav>
-        <div>
-          <a href="">
-            <img src="img/logo-full-navbar.png" alt="">
-          </a>
-        </div>
-        <ul>
-          <li>
-            <a href="#destaque" title="">Início</a>
-            <a href="#servicos" title="">Serviços</a>
-            <a href="#produtos" title="">Produtos</a>
-            <a href="#localizacao" title="">Localização</a>
-            <a href="#contatos" title="">Contatos</a>
+
+      <ul id="slide-out" class="side-nav">
+          <li class="grey">
+             <img class="slide-out-logo" src="img/logo.png"/>
           </li>
-        </ul>
+          <li><a href="#destaque" title="">Início</a></li>
+          <li><a href="#servicos" title="">Serviços</a></li>
+          <li><a href="#produtos" title="">Produtos</a></li>
+          <li><a href="#localizacao" title="">Localização</a></li>
+          <li><a href="#contatos" title="">Contatos</a></li>
+
+      </ul>
+
+    <div class="navbar-fixed">
+      <nav>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <div class="nav-wrapper deep-orange darken-4">
+          <a href="">
+            <img class="navbar-logo brand-logo" src="img/logo-full-navbar.png" alt="">
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#destaque" title="">Início</a></li>
+            <li><a href="#servicos" title="">Serviços</a></li>
+            <li><a href="#produtos" title="">Produtos</a></li>
+            <li><a href="#localizacao" title="">Localização</a></li>
+            <li><a href="#contatos" title="">Contatos</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
@@ -37,7 +50,7 @@
   <main>
     <section id="destaque">
       <figure>
-        <img src="img/slider.jpg" alt="">
+        <img class="responsive-img" src="img/slider.jpg" alt="">
       </figure>
     </section>
 
@@ -56,12 +69,13 @@
     <section id="contatos">
 
     </section>
-    
+
   </main>
 
 
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
