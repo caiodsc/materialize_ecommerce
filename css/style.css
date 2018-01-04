@@ -8,6 +8,8 @@
     height: 56px;
 }
 
+/*DESTAQUE*/
+
 #destaque{
     width: 100%;
     height: calc(100% - 64px);
@@ -20,4 +22,11 @@
 
 #destaque figure img {
     width: 100%;
+}
+
+/*SERVICOS*/
+
+.servicos-link:hover{
+  color:#bf360c;
+    cursor:pointer;
 }
